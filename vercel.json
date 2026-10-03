@@ -1,8 +1,5 @@
 {
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/taskpane.html"
-    }
+    { "source": "/", "destination": "/dashboard.html" }
   ]
 }
