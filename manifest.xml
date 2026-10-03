@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
+           xsi:type="TaskPaneApp">
+
+  <!-- ============================================ -->
+  <!-- معرف فريد للإضافة (UUID) -->
+  <!-- ============================================ -->
+  <Id>11111111-2222-3333-4444-555555555555</Id>
+
+  <Version>1.0.0.0</Version>
+  <ProviderName>Mahmoud</ProviderName>
+  <DefaultLocale>ar-SA</DefaultLocale>
+
+  <DisplayName DefaultValue="لوحة التحكم الموحدة"/>
+  <Description DefaultValue="لوحة تحكم تجمع كل الإضافات في مكان واحد"/>
+
+  <IconUrl DefaultValue="https://excel-dashboard.vercel.app/assets/32X32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://excel-dashboard.vercel.app/assets/80X80.png"/>
+  <SupportUrl DefaultValue="https://excel-dashboard.vercel.app"/>
+
+  <!-- ============================================ -->
+  <!-- الدومينات المسموح بها -->
+  <!-- ============================================ -->
+  <AppDomains>
+    <AppDomain>https://mahmoudtools.vercel.app</AppDomain>
+    <AppDomain>https://searchtool-sigma.vercel.app</AppDomain>
+    <AppDomain>https://sorter-tool.vercel.app</AppDomain>
+    <AppDomain>https://searchtool2.vercel.app</AppDomain>
+    <AppDomain>https://excel-dashboard.vercel.app</AppDomain>
+  </AppDomains>
+
+  <!-- ============================================ -->
+  <!-- التطبيقات المدعومة -->
+  <!-- ============================================ -->
+  <Hosts>
+    <Host Name="Workbook"/>
+  </Hosts>
+
+  <!-- ============================================ -->
+  <!-- الصفحة الافتراضية -->
+  <!-- ============================================ -->
+  <DefaultSettings>
+    <SourceLocation DefaultValue="https://excel-dashboard.vercel.app/dashboard.html"/>
+  </DefaultSettings>
+
+  <Permissions>ReadWriteDocument</Permissions>
+
+</OfficeApp>
